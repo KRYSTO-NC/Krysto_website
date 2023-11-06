@@ -1,0 +1,278 @@
+@charset "UTF-8";
+.xl-text {
+  font-size: 75px;
+}
+
+.btn-primary {
+  color: white;
+}
+
+.btn-outline-secondary {
+  color: var(--bs-secondary);
+}
+
+.btn-outline-secondary:hover {
+  color: #fff;
+}
+
+.header .decoration-star {
+  top: 80px;
+  left: -200px;
+  width: 500px;
+  opacity: 0.7;
+}
+
+.header .decoration-star-2 {
+  top: 80px;
+  right: -200px;
+  width: 500px;
+  opacity: 0.7;
+}
+
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-sticky {
+  background: #fff;
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.details .decoration-star {
+  left: -200px;
+  width: 500px;
+}
+
+.details-2 .decoration-star {
+  right: -200px;
+  width: 500px;
+}
+
+.contact .decoration-star {
+  left: -300px;
+  width: 600px;
+}
+
+.to-top-btn {
+  position: fixed;
+  z-index: 20;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0;
+  width: 52px;
+  height: 52px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  background-color: #44434a;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.to-top-btn:hover {
+  background-color: #1d1d21;
+}
+
+.to-top-btn img {
+  margin-bottom: 0.25rem;
+  width: 18px;
+}
+
+.show {
+  opacity: 1;
+}
+
+@media (max-width: 992px) {
+  .xl-text {
+    font-size: 50px;
+  }
+  .navbar .btn-outline-secondary {
+    margin-top: 20px;
+  }
+  .header {
+    margin-top: 0px !important;
+    text-align: center;
+  }
+  .header .decoration-star {
+    left: -100px;
+    width: 250px;
+  }
+  .header .decoration-star-2 {
+    right: -100px;
+    width: 250px;
+  }
+  .header .image-container {
+    margin-top: 30px;
+  }
+  .services .col-md-4 {
+    border-bottom: 1px #ccc solid;
+    margin: 10px 0;
+  }
+  .details-2 {
+    margin-top: 20px !important;
+  }
+  .details-2 .decoration-star {
+    top: 300px;
+  }
+}
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.font-italic {
+  font-style: italic;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.bg-light {
+  background-color: #f8f9fa;
+}
+
+.product-title {
+  color: #9097e1;
+}
+
+.product-img {
+  min-height: 400px; /* Hauteur minimale */
+  max-height: 400px; /* Hauteur maximale */
+  -o-object-fit: cover;
+     object-fit: cover; /* Pour conserver les proportions de l'image */
+}
+
+.navbar-book .btn-outline-light:hover {
+  color: var(--bs-dark);
+}
+
+.navbar-book {
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-sticky {
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header-book {
+  background: url(../images/header-background.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.modal-dialog {
+  max-width: 1040px;
+}
+
+.download {
+  background: url("../images/download-background.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.map iframe {
+  left: 0;
+  top: 0;
+  height: 400px;
+  width: 100%;
+  border: none;
+}
+
+@media (max-width: 1000px) {
+  .hero .image-container {
+    display: flex;
+    justify-content: center;
+  }
+  .hero .text-container {
+    text-align: center;
+  }
+}
+/* Rules Section */
+#jenga-rules {
+  padding: 50px 10px;
+  border-radius: 8px;
+}
+
+#jenga-rules h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #9097e1;
+}
+
+.rule-section {
+  margin-bottom: 40px;
+}
+
+.rule-section h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #9097e1;
+}
+
+.rule-section p,
+.rule-section ol,
+.rule-section ul {
+  font-size: 1em;
+  color: #555;
+}
+
+.rule-section ol {
+  margin-left: 20px;
+  list-style-type: decimal;
+}
+
+.rule-section ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  #jenga-rules {
+    padding: 30px 0;
+  }
+  #jenga-rules h1 {
+    font-size: 2em;
+  }
+  .rule-section h2 {
+    font-size: 1.6em;
+  }
+}
+.img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* Styles personnalisés pour la section de recyclage */
+.recycle-section {
+  background-color: #f4f4f4;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 50px 0;
+}
+
+.recycle-section h2 {
+  color: #007bff;
+  font-weight: 600;
+}
+
+.recycle-section img {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.recycle-section p {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.recycle-section h3 {
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+.recycle-section button.btn {
+  margin-top: 30px;
+}/*# sourceMappingURL=styles.css.map */
